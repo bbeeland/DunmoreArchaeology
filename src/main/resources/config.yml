@@ -1,0 +1,72 @@
+Options:
+  MySQL:
+    Host: '136.175.187.98'
+    Port: 3306
+    Database: 's158_artifacts'
+    Username: 'u158_HTcsvcQJwY'
+    Password: 'mdDZRVJgZhSEeX53.@WdnR+u'
+
+  RGB-Enabled: true
+  Disable-Creative: true
+  # The chance it will drop an artifact when a qualifying action occurs (when a block is broken)
+  Artifact-Chance: 50
+
+Lang:
+  Invalid-Sender: 'You must be a player to perform that action!'
+  Invalid-Target: 'That player is not online!'
+  No-Permission: 'You do not have permission for that action!'
+  Artifact-Book-Title: '&e&lArtifact Book'
+  Artifact-Category-Title: '&7&lYour artifacts'
+  Discovered-All: 'All artifacts were discovered for that player!'
+  Removed-All: 'All artifacts were removed for that player!'
+  Invalid-Artifact: 'The specific artifact could not be found!'
+  Added-Artifact: 'Added the artifact to the users artifact book!'
+  Unknown-Arguments: 'The provided arguments are invalid!'
+
+
+Rarities:
+  COMMON:
+    Chance: 40
+    Color: '&#2ecc71'
+  UNCOMMON:
+    Chance: 20
+    Color: '&#1abc9c'
+  RARE:
+    Chance: 20
+    Color: '&#2980b9'
+  EPIC:
+    Chance: 18
+    Color: '&#f39c12'
+  LEGENDARY:
+    Chance: 2
+    Color: '&#e74c3c'
+
+Images:
+  - 'zealous.png'
+
+Artifact-Book:
+  Filler-Item:
+    Material: "GRAY_STAINED_GLASS_PANE"
+    Display-Name: " "
+    Lore:
+      - " "
+  Next-Page:
+    Material: "ARROW"
+    Display-Name: "Next Page"
+    Lore:
+      - "Click to proceed to the next page!"
+  Previous-Page:
+    Material: "BARRIER"
+    Display-Name: "&ePrevious Page"
+    Lore:
+      - "&cClick to go back to your previous page!"
+  Submit-Item:
+    Material: 'BOOK'
+    Display-Name: '&eDeposit'
+    Lore:
+      - 'This is how you add items to your /artifacts'
+  Unknown-Artifact:
+    Material: "PLAYER_HED"
+    Display-Name: 'Unknown...'
+    Skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTcyMGNmOTZmOGViYWU0ZDNiM2QxYmNmOWUyYzY2NDE3ZWQ5MmM4YTJiY2IzZWQwMWQ2MzBjMGM5NzAwOTFjNCJ9fX0='
+    Glow: true

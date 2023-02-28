@@ -1,0 +1,80 @@
+name: 'Mummy'
+id: 2200
+Chance: 1
+
+Item:
+  Material: 'DIAMOND_SWORD'
+  # If the item should "glow" (true/false)
+  Enchanted: true
+  Display-Name: '&c&lMummy Category'
+  Lore:
+    - '&a&lAncient artifacts dropped from ancient mummies!'
+
+
+Artifacts:
+  # The value for the configuration section will be the "name" used within the plugin.
+  Britton:
+    ID: 2210
+    Category: 2200
+    # Available Options : MINE, DIG, BOTH
+    Obtain-Method: 'BOTH'
+    Rarity: 'LEGENDARY'
+    Chance: .5
+    Discoverable-Biomes:
+      - ''
+    Obtain-Actions:
+      - 'say %player_name% has found an artifact!'
+    Item:
+      Material: 'DIRT'
+      # Only use if not using other enchants.
+      Glow: true
+      Enchants:
+        - 'SHARPNESS;3'
+      Display-Name: ''
+      Lore:
+        - '&fDiscovered by %player_name%!'
+  Book:
+    ID: 2530
+    Category: 2200
+    # Available Options : MINE, DIG, BOTH
+    Obtain-Method: 'BOTH'
+    Rarity: 'COMMON'
+    Chance: .25
+    Discoverable-Biomes:
+      - ''
+    Obtain-Actions:
+      - 'say %player_name% has found an artifact!'
+    Item:
+      Material: 'WRITTEN_BOOK'
+      Book:
+        Author: 'Unknown Philosopher'
+        Title: 'The lost world...'
+        Pages:
+          - 'This is page 1'
+          - 'This is page 2, and once the world was made and Casanova decided to not have a cell phone!'
+      # Only use if not using other enchants.
+      Glow: true
+      Enchants:
+        - 'SHARPNESS;3'
+      Display-Name: 'Custom Book Artifact'
+      Lore:
+        - 'Discovered by %player_name%!'
+  Skull:
+    ID: 2531
+    # Available Options : MINE, DIG, BOTH
+    Obtain-Method: 'MINE'
+    Rarity: 'COMMON'
+    Chance: .25
+    Discoverable-Biomes: ''
+    Obtain-Actions:
+      - 'bc %player% has found an artifact!'
+    Item:
+      Material: 'PLAYER_HEAD'
+      Skull: 'eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTcyMGNmOTZmOGViYWU0ZDNiM2QxYmNmOWUyYzY2NDE3ZWQ5MmM4YTJiY2IzZWQwMWQ2MzBjMGM5NzAwOTFjNCJ9fX0='
+      # Only use if not using other enchants.
+      Glow: true
+      Enchants:
+        - 'SHARPNESS;3'
+      Display-Name: 'Custom Book Artifact'
+      Lore:
+        - 'Discovered by %player%!'

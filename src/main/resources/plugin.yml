@@ -1,0 +1,11 @@
+name: DunmooreArchaeology
+main: me.beeland.dunmoore.archaeology.Archaeology
+version: 1.0.0
+api-version: 1.18
+depend: [PlaceholderAPI]
+
+author: 'Britton B'
+
+commands:
+  artifact:
+  depositartifact:
